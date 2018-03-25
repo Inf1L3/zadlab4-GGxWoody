@@ -7,7 +7,7 @@ package pl.edu.ur.polab4;
 
 /**
  *
- * @author student
+ * @author Przemysław Paliński
  */
 public class Student {
 

@@ -9,21 +9,17 @@ package pl.edu.ur.polab4.obliczanieFigur;
  *
  * @author Przemysław Paliński
  */
-public class Prostopadloscian implements FiguraPrzestrzenna {
+public class Kula implements FiguraPrzestrzenna {
 
-    private double bokA;
-    private double bokB;
-    private double bokC;
+    private double promien;
 
-    public Prostopadloscian(double bokA, double bokB, double bokC) {
-        this.bokA = bokA;
-        this.bokB = bokB;
-        this.bokC = bokC;
+    public Kula(double promien) {
+        this.promien = promien;
     }
 
     @Override
     public void obliczObjetosc() {
-        System.out.println(this.bokA * this.bokB * this.bokC);
+        System.out.println((4/3)*Math.PI*Math.pow(promien, 3));
     }
 
 }

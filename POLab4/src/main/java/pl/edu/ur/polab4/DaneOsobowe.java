@@ -7,12 +7,9 @@ package pl.edu.ur.polab4;
 
 /**
  *
- * @author student
+ * @author Przemysław Paliński
  */
 public class DaneOsobowe {
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Osoba osoba1 = new Osoba("Jan", "Kowalski", 15);
         osoba1.pokazDane();

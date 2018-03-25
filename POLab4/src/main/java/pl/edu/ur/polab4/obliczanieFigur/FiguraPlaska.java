@@ -7,7 +7,7 @@ package pl.edu.ur.polab4.obliczanieFigur;
 
 /**
  *
- * @author student
+ * @author Przemysław Paliński
  */
 public interface FiguraPlaska {
     void obliczPole();
